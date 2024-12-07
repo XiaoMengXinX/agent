@@ -105,6 +105,8 @@ func (c *AgentConfig) Read(path string) error {
 		}
 	}
 
+	c.DisableCommandExecute = true
+
 	return nil
 }
 
